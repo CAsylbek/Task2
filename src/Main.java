@@ -3,12 +3,10 @@ import java.net.*;
 import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
 
 public class Main {
 
     static String host = "elasticsearch:";
-//    static String host = "localhost:";
 
 
     public static void main(String[] args) {
