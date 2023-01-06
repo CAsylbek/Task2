@@ -22,10 +22,6 @@ public class Main {
         commands.put("add", Main::add);
         commands.put("search", Main::search);
 
-//        Scanner in = new Scanner(System.in);
-//        System.out.print("Input a number: ");
-//        int num = in.nextInt();
-
         for (int i = 0; i < args.length - 1; i++) {
             switch (args[i]) {
                 case "-s":
